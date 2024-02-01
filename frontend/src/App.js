@@ -10,7 +10,7 @@ import PortfolioScreen from './screens/PortfolioScreen';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/index.html">
       <div className='App'>      
       <main>
         <Routes>
