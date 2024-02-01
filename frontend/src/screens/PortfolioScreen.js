@@ -10,8 +10,8 @@ function PortfolioScreen(props) {
   useEffect(() => {
     const fetchDataFromDB = async () => {
       try {
-        const appsResponse = await axios.get('/api/apps');
-        const websitesResponse = await axios.get('/api/websites');
+        const appsResponse = await axios.get('https://portfolio2-backend-sigma.vercel.app/api/apps');
+        const websitesResponse = await axios.get('https://portfolio2-backend-sigma.vercel.app/api/websites');
 
         setApps(appsResponse.data);
         setWebsites(websitesResponse.data);

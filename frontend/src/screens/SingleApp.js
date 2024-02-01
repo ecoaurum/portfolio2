@@ -11,7 +11,7 @@ function SingleApp(props) {
   useEffect(() => {
     const fetchDataFromDB = async () => {
       try {
-        const response = await axios.get(`/api/apps/${id}`);
+        const response = await axios.get(`https://portfolio2-backend-sigma.vercel.app/api/apps/${id}`);
         setSelectedApp(response.data);
       } catch (error) {
         console.error('Error fetching app details from database:', error);
