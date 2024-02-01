@@ -1,6 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
+  "homepage":"." ,
   "proxy": "https://portfolio2-backend-sigma.vercel.app/",
   "private": true,
   "dependencies": {
